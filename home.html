@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness blog</title>
+    <link rel="stylesheet" type="text/css" href="css/home-style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="utils/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="utils/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="utils/bootstrap-social/bootstrap-social.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark fixed-top navbar-expand-sm">
+		<a href="home.html" title="" class="navbar-brand"><img src="img/logo.png" alt="logo" id="logo"></a>
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" >
+	     <span class="navbar-toggler-icon "></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+  		  	<ul class="navbar-nav ml-auto">
+			<li class="nav-item btn "><a  class="nav-link" href="blogs.html" title="">Blogs</a></li>
+			<li class="nav-item btn "><a class="nav-link" href="" title="" data-toggle="modal" data-target="	#loginmodal">Sign-In</a></li>
+			<li class="nav-item btn "><a class="nav-link" href="#aboutus" title="">About Us</a></li>
+			</ul>
+  		</div>
+		<div id="loginmodal" class="modal fade" role="dialog">
+        	<div class="modal-dialog modal-dialog-centered" role="content">
+            	<div class="modal-content">
+                	<div class="modal-header">
+                    	<h4 class="modal-title">Login</h4>
+                    	<button type="button" class="close" data-dismiss="modal">&times;</button>
+                	</div>
+                	<div class="modal-body">
+                		<form action="home_submit" accept-charset="utf-8">
+                			<div class="form-row">
+                				<div class="form-group col-10">
+                					<label for="name">Email</label><br>
+                					<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+                					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                				</div>
+                			</div>
+                			<div class="form-row">
+                				<div class="form-group col-12">
+                					<label for="password">Password</label><br>
+                					<input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
+                				</div>
+                				<div class="form-check">
+                					
+                					<label class="form-check-label" for=""><input type="checkbox" class="form-check-input" name="remember"> Remember Me</label>
+                				</div>
+                			</div>
+                			<div class="form-group">
+                				<buttton class="btn btn-info">LogIn</buttton>	
+                				<button type="" class="btn btn-secondary close" data-dismiss="modal">Cancel</button>
+                			</div>
+                		</form>
+                	</div>
+            	</div>
+        	</div>
+        </div>
+	</nav>
+	<header id="header" class="jumbotron-fluid">
+		<div class="container-fluid">
+			<div class="row row-header">
+				<div class="card ">
+					<img src="img/header-image.jpg" alt="man exercising" class="card-img-top">
+					<div class="card-img-overlay ">
+						<div class="col-5 " >
+							<div class="carousel slide d-none d-md-block" data-ride="carousel" id="carousel">
+								<div class="carousel-inner" role="listbox">
+									
+									<div class="carousel-item active ">
+										<div class="">
+											<blockquote class="blockquote">
+		                        			<p class="mb-0">“The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.”</p>
+		                        			<footer class="blockquote-footer text-right">Arnold Schwarzenegger, seven-time Mr. Olympia
+		                        			</footer>
+		                    				</blockquote>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="">
+											<blockquote class="blockquote">
+		                        			<p class="mb-0">“If you think lifting is dangerous, try being weak. Being weak is dangerous.”</p>
+		                        			<footer class="blockquote-footer text-right">Bret Contreras, sports scientist
+		                        			</footer>
+		                    				</blockquote>
+										</div>
+									</div>
+									<div class="carousel-item ">
+										<div class="">
+											<blockquote class="blockquote">
+		                        			<p class="mb-0">“Strength does not come from the physical capacity. It comes from an indomitable will.”</p>
+		                        			<footer class="blockquote-footer text-right">
+		                        				Mahatma Gandi
+		                        			
+		                        			</footer>
+		                    				</blockquote>
+										</div>
+									</div>
+									<!-- <ol class="carousel-indicators">
+										<li data-target="#carousel" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel" data-slide-to="1" ></li>
+										<li data-target="#carousel" data-slide-to="1" ></li>
+									</ol> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<a href="" class="btn btn-outline-light">Get Your Exercise Plan</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row row-content">
+			<div class="col-sm-6 col-12 ">
+				<div class="card mb-5" >
+				    <img class="card-img-top" src="img/cardio.jpg" alt="Card image cap">
+				    <div class="card-body">
+				        <h4 class="card-title">Cardiovascular</h4>
+				        <p class="card-text">Cardiovascular exercise raises your heart rate and breathing rate into the moderate-to-vigorous intensity level for 10 minutes or more.</p>
+				        <a href="#" class="btn btn-info">Explore</a>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-6 col-12">
+				<div class="card mb-2" >
+				    <img class="card-img-top" src="img/strength.jpg" alt="Card image cap">
+				    <div class="card-body">
+				        <h4 class="card-title">Strength</h4>
+				        <p class="card-text">Strength exercise, or resistance training, works your muscles by using resistance, like a dumbbell or your own body weight.</p>
+				        <a href="#" class="btn btn-info">Explore</a>
+				    </div>
+				</div>
+				
+			</div>
+			<div class="col-md-6 col-12 ">
+				<div class="card mb-2" >
+				    <img class="card-img-top" src="img/flex.jpg" alt="Card image cap">
+				    <div class="card-body">
+				        <h4 class="card-title">Flexibility</h4>
+				        <p class="card-text">A stretch should always be smooth and slow, never jerky or bouncy. This can cause muscles to tighten and may result in injuries.</p>
+				        <a href="#" class="btn btn-info">Explore</a>
+				    </div>
+				</div>
+				
+			</div>
+			<div class="col-md-6 col-12">
+				<div class="card mb-2" >
+				    <img class="card-img-top" src="img/Balance.jpg" alt="Card image cap">
+				    <div class="card-body">
+				        <h4 class="card-title">Balance</h4>
+				        <p class="card-text">Having good balance is important for many activities we do every day, such as walking and going up and down the stairs.</p>
+				        <a href="#" class="btn btn-info">Explore</a>
+				    </div>
+				</div>				
+			</div>
+			<div class="col-md-6 col-12">
+				<div class="card mb-2" >
+				    <img class="card-img-top" src="img/meditation.jpg" alt="Card image cap">
+				    <div class="card-body">
+				        <h4 class="card-title">Meditation</h4>
+				        <p class="card-text">Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object  or thought.</p>
+				        <a href="#" class="btn btn-info">Explore</a>
+				    </div>
+				</div>				
+			</div>
+			<div class="col-md-6 col-12">
+				<div class="card mb-2" >
+				    <img class="card-img-top" src="img/diet.jpg" alt="Card image cap">
+				    <div class="card-body">
+				        <h4 class="card-title">Nutrition-N-Diet</h4>
+				        <p class="card-text">Eating a well-balanced diet can help you get the calories and nutrients you need to fuel your daily activities, including regular exercise.</p>
+				        <a href="#" class="btn btn-info">Explore</a>
+				    </div>
+				</div>				
+			</div>
+
+		</div>
+		<div class="footer mb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-xs-6 align-self-center">
+					<div class="d-flex justify-content-around">
+						<span class="align-middle"><a class="fa fa-facebook-f fa-2x "></a></span>
+						<span class="align-middle"><a href="" title="" class="fa fa-linkedin fa-2x "></a></span>
+						<span class="align-middle"><a href="" class="fa fa-instagram fa-2x"></a></span>
+						<span class="align-middle"><a href="" class="fa fa-twitter fa-2x "></a></span>
+					</div>
+					<div class="text-center floral">
+						<a href="tel:+919917258682" class="floral" title=""><span><i class="fa fa-phone"></i>  +91-9917258682</span></a>
+					</div>
+					<div class="text-center ">
+						<a href="mailto:prabhatpanchal8682@gmail.com" class="floral" title=""><span><i class="fa fa-envelope"></i>  prabhatpanchal8682@gmail.com</span></a>
+					</div>
+				</div><hr class="d-sm-none">
+				<div class="col-sm-4 col-xs-6 mt-3">	
+					<h5 id="aboutus">About Us</h5>
+					<p>  I design this website for purpose of learning. Please make reviews and let me know your opinion about website and suggestion for improvement.</p>
+				</div><hr class="d-sm-none">
+				<div class="col-sm-4 col-xs-12 mt-3">	
+					<p class="text-center mb-0" id="cprt">&copyright; 2020 Prabhat Panchal, India</p>
+					<p class="mt-0"> All rights reserved. Our website services, content, and products are for informational purposes only. Healthline Media does not provide medical advice, diagnosis, or treatment.</p>
+				</div><hr class="d-sm-none">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script src="utils/jquery/dist/jquery.slim.min.js"></script>
+    <script src="utils/popper.js/dist/umd/popper.min.js"></script>
+    <script src="utils/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+
+</body>
+</html>

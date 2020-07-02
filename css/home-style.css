@@ -1,0 +1,56 @@
+.card {
+	width: 100%;
+}
+
+body {
+	padding-top: 70px;
+}
+
+s
+#carousel-item {
+	height: 200px;
+	margin-top: 10%;
+	color: floralwhite;
+
+}
+.carousel-indicator {
+	margin-bottom: 3px;
+	display: block;
+}
+.blockquote{
+	color: floralwhite;
+}
+.carousel {
+	margin-top: 5.5rem;
+}
+.row-content {
+	color: black;
+}
+.container {
+	margin-top: 50px;
+}
+.carousel-item {
+	height: 150px;
+}
+.footer, .navbar, .modal-header{
+	background-color: #669999;
+	color: floralwhite;
+}
+.fa , .floral, .fa:hover{
+	color:floralwhite;
+}
+.floral {
+	margin-top: 1rem;
+}
+.modal-body {
+	color: #555;
+}
+/*.fa:hover {
+	color: floralwhite;
+}*/
+#cprt {
+	color:black;
+}
+#logo {
+	height: 3rem;
+}

@@ -1,0 +1,23 @@
+$dark:#512DA8;
+$pale: #d9b3ff ;
+$floralw:floralwhite;
+
+@mixin modal-body($dark,$pale,$floaralw){
+	background-color:$pale;
+}
+
+@mixin modal-header($dark,$pale,$floralw){
+	background-color:$dark;
+	color:$floralw;
+}
+
+.modal-header{
+	@include modal-header($dark,$pale,$floralw);
+	.close{
+		color:$floralw;
+	}
+}
+
+.modal-body{
+	@include modal-body($dark,$pale,$floralw)
+}

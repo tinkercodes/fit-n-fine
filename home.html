@@ -13,6 +13,41 @@
     <link rel="stylesheet" href="utils/bootstrap-social/bootstrap-social.css">
 </head>
 <body>
+	<div id="loginmodal" class="modal fade" role="dialog">
+    	<div class="modal-dialog modal-dialog-centered" role="content">
+        	<div class="modal-content">
+            	<div class="modal-header">
+                	<h4 class="modal-title">Login</h4>
+                	<button type="button" class="close" data-dismiss="modal">&times;</button>
+            	</div>
+            	<div class="modal-body">
+            		<form action="home_submit" accept-charset="utf-8">
+            			<div class="form-row">
+            				<div class="form-group col-10">
+            					<label for="name">Email</label><br>
+            					<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+            					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            				</div>
+            			</div>
+            			<div class="form-row">
+            				<div class="form-group col-12">
+            					<label for="password">Password</label><br>
+            					<input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
+            				</div>
+            				<div class="form-check">
+            					
+            					<label class="form-check-label" for=""><input type="checkbox" class="form-check-input" name="remember"> Remember Me</label>
+            				</div>
+            			</div>
+            			<div class="form-group">
+            				<buttton class="btn btn-info">LogIn</buttton>	
+            				<button type="" class="btn btn-secondary close" data-dismiss="modal">Cancel</button>
+            			</div>
+            		</form>
+            	</div>
+        	</div>
+    	</div>
+    </div>
 	<nav class="navbar navbar-dark fixed-top navbar-expand-sm">
 		<a href="home.html" title="" class="navbar-brand"><img src="img/logo.png" alt="logo" id="logo"></a>
 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" >
@@ -25,41 +60,7 @@
 			<li class="nav-item btn "><a class="nav-link" href="#aboutus" title="">About Us</a></li>
 			</ul>
   		</div>
-		<div id="loginmodal" class="modal fade" role="dialog">
-        	<div class="modal-dialog modal-dialog-centered" role="content">
-            	<div class="modal-content">
-                	<div class="modal-header">
-                    	<h4 class="modal-title">Login</h4>
-                    	<button type="button" class="close" data-dismiss="modal">&times;</button>
-                	</div>
-                	<div class="modal-body">
-                		<form action="home_submit" accept-charset="utf-8">
-                			<div class="form-row">
-                				<div class="form-group col-10">
-                					<label for="name">Email</label><br>
-                					<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
-                					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                				</div>
-                			</div>
-                			<div class="form-row">
-                				<div class="form-group col-12">
-                					<label for="password">Password</label><br>
-                					<input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
-                				</div>
-                				<div class="form-check">
-                					
-                					<label class="form-check-label" for=""><input type="checkbox" class="form-check-input" name="remember"> Remember Me</label>
-                				</div>
-                			</div>
-                			<div class="form-group">
-                				<buttton class="btn btn-info">LogIn</buttton>	
-                				<button type="" class="btn btn-secondary close" data-dismiss="modal">Cancel</button>
-                			</div>
-                		</form>
-                	</div>
-            	</div>
-        	</div>
-        </div>
+		
 	</nav>
 	<header id="header" class="jumbotron-fluid">
 		<div class="container-fluid">
